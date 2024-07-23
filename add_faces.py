@@ -29,7 +29,7 @@ while True:
         break
 video.release()
 cv2.destroyAllWindows()
-print("a new Face added")
+print("A new user with the name '{name}' has been added")
 
 faces_data=np.asarray(faces_data)
 faces_data=faces_data.reshape(100, -1)
